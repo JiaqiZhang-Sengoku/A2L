@@ -1,0 +1,98 @@
+{
+  "protocol": "TRAIN-only grouped holdout; labels never used by adaptation",
+  "group_information": "inferred from filenames; no clinical patient metadata supplied",
+  "grouping_seed": "A2L_validation_20260905",
+  "criterion": "final-epoch student mean Dice, ASSD tie-break",
+  "test_access": "none during development",
+  "domains": {
+    "Domain1": {
+      "train_count": 40,
+      "validation_count": 10,
+      "validation_names": [
+        "Domain1__gdrishtiGS_004.png",
+        "Domain1__gdrishtiGS_015.png",
+        "Domain1__gdrishtiGS_022.png",
+        "Domain1__gdrishtiGS_051.png",
+        "Domain1__gdrishtiGS_064.png",
+        "Domain1__gdrishtiGS_069.png",
+        "Domain1__ndrishtiGS_008.png",
+        "Domain1__ndrishtiGS_035.png",
+        "Domain1__ndrishtiGS_046.png",
+        "Domain1__ndrishtiGS_047.png"
+      ],
+      "validation_groups": [
+        "drishtiGS_004",
+        "drishtiGS_008",
+        "drishtiGS_015",
+        "drishtiGS_022",
+        "drishtiGS_035",
+        "drishtiGS_046",
+        "drishtiGS_047",
+        "drishtiGS_051",
+        "drishtiGS_064",
+        "drishtiGS_069"
+      ],
+      "filename_category_counts": {
+        "g": 6,
+        "n": 4
+      },
+      "training_annotation_budget": 2,
+      "validation_annotation_cost": 10
+    },
+    "Domain2": {
+      "train_count": 79,
+      "validation_count": 20,
+      "validation_names": [
+        "Domain2__G-13-R.png",
+        "Domain2__G-17-L.png",
+        "Domain2__G-35-R.png",
+        "Domain2__G-39-L.png",
+        "Domain2__G-5-R.png",
+        "Domain2__G-6-L.png",
+        "Domain2__N-12-R.png",
+        "Domain2__N-16-R.png",
+        "Domain2__N-56-R.png",
+        "Domain2__N-6-R.png",
+        "Domain2__N-61-L.png",
+        "Domain2__N-64-R.png",
+        "Domain2__N-70-R.png",
+        "Domain2__N-79-L.png",
+        "Domain2__N-82-R.png",
+        "Domain2__N-88-R.png",
+        "Domain2__S-13-R.png",
+        "Domain2__S-15-L.png",
+        "Domain2__S-21-R.png",
+        "Domain2__S-25-L.png"
+      ],
+      "validation_groups": [
+        "G-13",
+        "G-17",
+        "G-35",
+        "G-39",
+        "G-5",
+        "G-6",
+        "N-12",
+        "N-16",
+        "N-56",
+        "N-6",
+        "N-61",
+        "N-64",
+        "N-70",
+        "N-79",
+        "N-82",
+        "N-88",
+        "S-13",
+        "S-15",
+        "S-21",
+        "S-25"
+      ],
+      "filename_category_counts": {
+        "G": 6,
+        "N": 10,
+        "S": 4
+      },
+      "training_annotation_budget": 5,
+      "validation_annotation_cost": 20
+    }
+  }
+}

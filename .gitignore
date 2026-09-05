@@ -1,0 +1,29 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+
+# Datasets, checkpoints and generated experiments
+Data/
+Checkpoints/
+Outputs/
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+*.log
+
+# Notebook and editor artifacts
+.ipynb_checkpoints/
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

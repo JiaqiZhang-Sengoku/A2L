@@ -1,0 +1,16 @@
+{
+  "dataset": "Domain4",
+  "epoch": 30,
+  "warmup_epochs": 10,
+  "lr": 0.0005,
+  "batch_size": 8,
+  "seed": 42,
+  "model_ema_rate": 0.98,
+  "pseudo_label_threshold": 0.75,
+  "temperature": 0.1,
+  "hard_topk_pixels": 512,
+  "cal_margin_scale": 0.2,
+  "beta_sca": 1,
+  "lambda_cal": 1,
+  "active_num": 7
+}
